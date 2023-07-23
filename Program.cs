@@ -8,7 +8,7 @@ internal class Program
 
     const char FINAL = (char)173; //'¡'
 
-    //Brute force functuon
+    //Brute force function
     private static void brute(ref string success, ref bool found, ref byte[] data, string sample, int digits, string filename, 
         ref double percent, ref long max, ref double pVar, ref ushort currP)
     {
