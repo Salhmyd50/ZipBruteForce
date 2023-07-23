@@ -36,14 +36,17 @@ internal class Program
             //Init char value
             char init = ' ';
 
+            //Check
+            ushort check = 0;
+
             //Start test loop
             while (init < FINAL && !found)
             {
                 pVar++;
 
                 //Calc and show progress percent
-                if ((ushort)(pVar / percent) > currP)
-                    Console.WriteLine($"{(currP = (ushort)(pVar / percent))}% analyzed.");
+                if ((check = (ushort)(pVar / percent)) > currP)
+                    Console.WriteLine($"{(currP = check)}% analyzed.");
 
                 try
                 {
