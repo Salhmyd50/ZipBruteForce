@@ -4,3 +4,7 @@
 ZIP password bruteforce using recursivity.
 
 All coded on C#, select the file to attack, input the possible password length, and let the magic work! (Coding actually :) )
+
+Most code is commented on by me.
+
+[Using 'DotNetZip']
